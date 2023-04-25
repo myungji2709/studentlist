@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.studentList{
+    width: 400px;
+    margin: 50px auto;
+    padding: 35px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: 'Lato', sans-serif;
+    background: #2ecc71;
+}
+.studentList .student{
+    padding: 20px;
+    border-bottom: solid 1px #fff ;
+    color: #fff;
+    font-size: 20px;
+}
+.studentList .student span{
+    width: 85%;
+    display: inline-block;
+}
+.studentList .formAdd input{
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+}
